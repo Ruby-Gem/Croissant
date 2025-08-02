@@ -20,18 +20,6 @@
         padding: 15px 20px;
         transition: all 200ms ease;
       }
-    a:hover {
-      color: mediumpurple;
-    }
-    a:visited {
-      color: rebeccapurple;
-    }
-    h1 {
-      font-size:4rem;
-      margin:50px;
-      margin-bottom: 2px;
-      line-height:1.2;
-    }
     .croissant-photo {
     max-width: 100%;
     border-radius: 10px;
