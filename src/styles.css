@@ -1,0 +1,40 @@
+
+    body {
+        background-color: #f8e8a6;
+    }
+    h1,p{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+     button {
+        border: 1px solid #885df1;
+        border-radius: 30px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+        margin: 20px;
+        color: #885df1;
+        font-size: 16px;
+        background: transparent;
+        padding: 15px 20px;
+        transition: all 200ms ease;
+      }
+    a:hover {
+      color: mediumpurple;
+    }
+    a:visited {
+      color: rebeccapurple;
+    }
+    h1 {
+      font-size:4rem;
+      margin:50px;
+      margin-bottom: 2px;
+      line-height:1.2;
+    }
+    .croissant-photo {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+}
