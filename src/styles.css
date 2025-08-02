@@ -1,7 +1,14 @@
-
+    .container {
+  max-width: 800px;
+  margin: auto;
+}
     body {
-        background-color: #f8e8a6;
-    }
+  font-size: 1rem;
+  padding: 2%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f8e8a6;
+}
     h1,p{
         text-align: center;
     }
@@ -9,20 +16,36 @@
     footer{
         text-align: center;
     }
-     button {
-        border: 1px solid #885df1;
-        border-radius: 30px;
-        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
-        margin: 20px;
-        color: #885df1;
-        font-size: 16px;
-        background: transparent;
-        padding: 15px 20px;
-        transition: all 200ms ease;
-      }
+   .button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.button-group a {
+  padding: 0.7em 1.5em;
+  background-color: #f2c94c;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button-group a:hover {
+  background-color: #e0b03d;
+}
     .croissant-photo {
     max-width: 100%;
     border-radius: 10px;
     display: block;
     margin: 30px auto;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: calc(1vw + 1vh);
 }
